@@ -1,6 +1,9 @@
 import React from "react";
 
-const FunctionalGreatingWithProps = () => <h1>Hello World</h1>
+const FunctionalGreatingWithProps = (props) => {
+    console.log(props);
+    return <h1>Hello, {props.name}, {props.age} {props.greeting} </h1>;
+}
 
 
 export default FunctionalGreatingWithProps;

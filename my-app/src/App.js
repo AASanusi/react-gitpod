@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       {/* <FunctionalGreating /> */}
-      <FunctionalGreatingWithProps />
+      <FunctionalGreatingWithProps name = "Ali!" age = "I see you're 27 years old;" greeting = "Nice to meet ya!" />
     </div>
   );
 }
